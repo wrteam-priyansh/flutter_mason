@@ -13,6 +13,14 @@ bricks:
     path: bricks/utils  
   data_layer:
     path: bricks/data_layer 
+  stateless_screen:
+    path: bricks/stateless_screen 
+  statefull_screen:
+    path: bricks/statefull_screen 
+  custom_container:
+    path: bricks/custom_container 
+
+
   # Bricks can also be imported via git url.
   # Uncomment the following lines to import
   # a brick from a remote git url.

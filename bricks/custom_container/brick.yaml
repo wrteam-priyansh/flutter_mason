@@ -1,4 +1,4 @@
-name: cubit
+name: custom_container
 description: A new brick created with the Mason CLI.
 
 # The following defines the version and build number for your brick.
@@ -23,16 +23,11 @@ environment:
 vars:
   name:
     type: string
-    prompt: Cubit name
-  repository:
-    type: string
-    prompt: Repository name
+    description: Your name
+    default: Dash
+    prompt: Enter name-
 
-  stateType:
-    type: string
-    prompt: Enter state type (Fetch/Edit/Delete)- 
-    default: ""
+  borderRadius:
+    type: number
+    prompt: Enter radius-
 
-    #description: Your name
-    #default: Dash
-    #prompt: What is your name?

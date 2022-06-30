@@ -1,4 +1,4 @@
-name: cubit
+name: statefull_screen
 description: A new brick created with the Mason CLI.
 
 # The following defines the version and build number for your brick.
@@ -23,16 +23,6 @@ environment:
 vars:
   name:
     type: string
-    prompt: Cubit name
-  repository:
-    type: string
-    prompt: Repository name
-
-  stateType:
-    type: string
-    prompt: Enter state type (Fetch/Edit/Delete)- 
-    default: ""
-
-    #description: Your name
-    #default: Dash
-    #prompt: What is your name?
+    description: Your name
+    default: Dash
+    prompt: Enter file name
