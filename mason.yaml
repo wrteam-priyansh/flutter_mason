@@ -19,6 +19,8 @@ bricks:
     path: bricks/statefull_screen 
   custom_container:
     path: bricks/custom_container 
+  assets_layer:
+    path: bricks/assets_layer 
 
 
   # Bricks can also be imported via git url.
