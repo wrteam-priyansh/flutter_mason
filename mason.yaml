@@ -19,6 +19,8 @@ bricks:
     path: bricks/statefull_screen 
   custom_container:
     path: bricks/custom_container 
+  flutter_project:
+    path: bricks/flutter_project 
   assets_layer:
     path: bricks/assets_layer 
 

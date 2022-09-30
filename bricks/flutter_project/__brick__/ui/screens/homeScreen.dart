@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -6,10 +5,6 @@ class HomeScreen extends StatefulWidget {
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
-
-  static Route<dynamic> route(RouteSettings routeSettings) {
-    return CupertinoPageRoute(builder: (_) => const HomeScreen());
-  }
 }
 
 class _HomeScreenState extends State<HomeScreen> {
