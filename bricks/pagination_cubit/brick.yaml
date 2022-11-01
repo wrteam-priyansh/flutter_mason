@@ -1,4 +1,4 @@
-name: flutter_project
+name: pagination_cubit
 description: A new brick created with the Mason CLI.
 
 # The following defines the version and build number for your brick.
@@ -20,4 +20,25 @@ environment:
 #  * an optional list of default values (array only)
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
+vars:
+  name:
+    type: string
+    prompt: Cubit name
+  repository:
+    type: string
+    prompt: Repository name
 
+  stateType:
+    type: string
+    prompt: Enter state type (Fetch/Edit/Delete)- 
+    default: ""
+
+  model:
+    type: string
+    prompt: Enter pagination model(type) 
+    default: ""
+
+  dataListName:
+    type: string
+    prompt: Enter pagination list name(Ex. students) 
+    default: ""

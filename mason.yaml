@@ -3,6 +3,8 @@
 bricks:
   cubit:
     path: bricks/cubit
+  pagination_cubit:
+    path: bricks/pagination_cubit
   app_layer:
     path: bricks/app_layer  
   cubits_layer:
