@@ -7,7 +7,8 @@ class GameScreen extends StatefulWidget {
 
   static Route<dynamic> route(RouteSettings routeSettings) {
     return CupertinoPageRoute(
-        builder: (_) => MultiBlocProvider(providers: [], child: GameScreen()));
+        builder: (_) =>
+            MultiBlocProvider(providers: const [], child: const GameScreen()));
   }
 
   @override
