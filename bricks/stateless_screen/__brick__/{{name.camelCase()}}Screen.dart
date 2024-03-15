@@ -6,9 +6,9 @@ class {{name.pascalCase()}}Screen extends StatelessWidget {
   const {{name.pascalCase()}}Screen({Key? key}) : super(key: key);
 
 
-  static Route<dynamic> route(RouteSettings routeSettings) {
-    return CupertinoPageRoute(builder: (_) => MultiBlocProvider(providers: [], child: const {{name.pascalCase()}}Screen()));
-  }
+  static Widget getRouteInstance() => const {{name.pascalCase()}}Screen();
+  
+  
 
   @override
   Widget build(BuildContext context) {

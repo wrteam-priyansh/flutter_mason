@@ -25,6 +25,8 @@ bricks:
     path: bricks/flutter_project 
   assets_layer:
     path: bricks/assets_layer 
+  pagination_cubit_offset:
+    path: bricks/pagination_cubit_offset 
 
 
   # Bricks can also be imported via git url.
