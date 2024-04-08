@@ -6,9 +6,15 @@ class {{name.pascalCase()}}Screen extends StatelessWidget {
   const {{name.pascalCase()}}Screen({Key? key}) : super(key: key);
 
 
-  static Widget getRouteInstance() => const {{name.pascalCase()}}Screen();
-  
-  
+  static Widget getRouteInstance() {
+    final arguments = Get.arguments as Map<String,dynamic>;
+    return const {{name.pascalCase()}}Screen();
+  };
+
+
+  static Map<String, dynamic> buildArguments() {
+    return {};
+  }
 
   @override
   Widget build(BuildContext context) {

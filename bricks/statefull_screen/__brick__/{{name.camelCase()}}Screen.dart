@@ -5,7 +5,15 @@ class {{name.pascalCase()}}Screen extends StatefulWidget {
   {{name.pascalCase()}}Screen({Key? key}) : super(key: key);
 
   
-  static Widget getRouteInstance() => const {{name.pascalCase()}}Screen();
+  static Widget getRouteInstance() {
+    final arguments = Get.arguments as Map<String,dynamic>;
+    return const {{name.pascalCase()}}Screen();
+  };
+
+
+  static Map<String, dynamic> buildArguments() {
+    return {};
+  }
 
  @override
   State<{{name.pascalCase()}}Screen> createState() => _{{name.pascalCase()}}ScreenState();
